@@ -1,5 +1,5 @@
 /* Import Google Font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -11,7 +11,8 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #43AFFC;
+  background: url('background3.jpg');
+  background-size: cover;
 }
 ::selection{
   color: #fff;
@@ -19,9 +20,12 @@ body{
 }
 .wrapper{
   width: 400px;
-  background: #fff;
+  background: transparent;
+  /* background: url('background2.jpg');
+  background-size: cover; */
+  backdrop-filter: blur(10px);
   border-radius: 7px;
-  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.05);
 }
 .wrapper header{
   display: flex;
